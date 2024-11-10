@@ -40,7 +40,7 @@ while True:
         n=int(input("请输入你要存入的金额：\n"))
         cun(n)
         continue
-    elif r==32:
+    elif r==3:
         m=int(input("请输入你要取出的金额：\n"))
         qu(m)
         continue
