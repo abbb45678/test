@@ -133,21 +133,7 @@
 # print(f"{list1}升序排序后：{sorted(list1)}")
 # print(f"{list1}降序排序后：{sorted(list1,reverse=True)}")
 
-# 11、对学生成绩进行排列
-# score=[
-#     {"学号":1,"姓名":"小娜","成绩":99},
-#     {"学号":2,"姓名":"小萱","成绩":100},
-#     {"学号":3,"姓名":"小君","成绩":89},
-#     {"学号":4,"姓名":"小静","成绩":67}
-# ]
-# score_sort=sorted(score,key=lambda x:x["成绩"],reverse=True)
-# print(f"对成绩排序后：{score_sort}")
 
-# 12、写入文件
-# f=open("D:/score.txt","w",encoding="UTF-8")
-# f.write("[{'number':1,'name':'Bob','score':66},{'number':2,'name':'Lily','score':77},{'number':3,'name':Gina','score':88}]")
-# f.flush()
-# f.close
 
 # 13、统计输入字符串中每个字母出现的次数
 # str=input("请输入字符串：")
