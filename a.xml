@@ -1,0 +1,19 @@
+<!-- 能力层（向上辐射） -->
+<mxCell id="ability" value="<b>能力辐射层</b><br>⟐ 对话记忆池（30轮回溯）<br>⟐ 共情回应生成器" 
+        style="rounded=1;whiteSpace=wrap;html=1;fillColor=#87C0CD;gradientColor=#B7D3DF;fontColor=#000000;"
+        parent="1" vertex="1">
+  <mxGeometry x="200" y="300" width="600" height="100"/>
+</mxCell>
+
+<!-- 应用层（用户端） -->
+<mxCell id="app" value="<b>应用交互层</b><br>▨ 学生对话端<br>▨ 教师管理台<br>▨ 校级数据舱" 
+        style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F4F1DE;fontColor=#000000;"
+        parent="1" vertex="1">
+  <mxGeometry x="250" y="150" width="500" height="80"/>
+</mxCell>
+
+<!-- 数据流箭头（能力→基座） -->
+<mxCell id="flow1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=classic;strokeColor=#E76F51;strokeWidth=2;"
+       parent="1" source="ability" target="base" edge="1">
+  <mxGeometry relative="1"/>
+</mxCell>
